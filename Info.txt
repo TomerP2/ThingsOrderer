@@ -1,0 +1,14 @@
+Goal: Help me make a ranked list of a collection of random items
+Algorithm:
+	- Have a dictionary with as key a random item and as value 0
+	- Pick two random keys from dictionary
+	- Print them out for user
+	- Have user input choose between them
+	- If user chose an item, add +1 to item
+	- If user didn't choose an item, add -1 to item
+	- Loop until user input = done
+	- If done, print dictionary ordered by value of values.
+
+Helpers:
+	- pickRandomKeys: input: dictionary, output: two random keys in dictionary
+	- getOrderedListFromDict: returns an ordered list from dictionary
